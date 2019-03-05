@@ -1,0 +1,353 @@
+
+
+body{
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+.navbar-container{
+    padding-right: 20%;
+    /* padding-left: 20%; */
+    background-color: whitesmoke;
+    box-shadow: 0px 4px 8px rgb(40, 40, 40);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    margin-right: 12%;
+    /* font-family: 'Lobster', cursive; */
+}
+.navbar-container>ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: rgb(117,117,117);
+    padding: 20px 20px;
+    transition: all 0.25s;
+}
+.navbar-container>ul>li{
+    float: left;
+    padding: 20px 10px;
+    display: inline-block;
+    transition: all 0.25s;
+}
+.navbar-container>ul>li:hover{
+    background-color: rgb(117,117,117);
+    cursor: pointer;
+}
+li:hover a{
+    color: whitesmoke;
+
+}
+.navbar-container>ul>li.right{
+    float: right;
+}
+
+.back-green{
+    background-color: rgb(50,90,101);
+    position: relative;
+    overflow: hidden;
+}
+
+.height900{
+    height: 900px;
+}
+
+.height-fitc{
+    height: fit-content;
+}
+
+.content-container{
+    margin-top: 7%;
+    height: 100%;
+}
+
+.back-green .content-container h1{
+    color: whitesmoke;
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+.content-container .imageheader{
+    width: 40%; 
+    /* margin-left: 25%; */
+    margin-top: 100px; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer{
+    background-color: whitesmoke;
+    height: 200px;
+    /* position: relative; */
+}
+
+.black-btn{
+    padding: 14px 22px;
+    background-color: black;
+    color: whitesmoke;
+    margin: 7px 7px;
+    border-radius: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+}
+.white-btn{
+    border: none;
+    padding: 8px 18px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    color: rgb(30,30,30);
+    margin: 7px 7px;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif;
+    transition: all 0.2s;
+}
+
+.white-btn:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.login-box{
+    width: 60%;
+    height: 60%;
+    /* border: black solid 6px; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 5px 10px rgb(30,30,30);
+}
+
+.profile-box{
+    width: 42%;
+    height: 95%;
+    /* border: black solid 6px; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 5px 10px rgb(30,30,30);
+    background-color: rgb(52,59,62);
+}
+
+.review-box{
+    width: 65%;
+    height: 95%;
+    /* border: black solid 6px; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 1px 5px 10px rgb(30,30,30);
+    background-color: rgb(52,59,62);
+}
+.sublogin-box-black{
+    float: left; 
+    width: 50%; 
+    height: 100%; 
+    background-color: rgb(52, 59, 62);
+    color: whitesmoke;
+}
+
+.sublogin-box-black-container{
+
+    /* height: 100%; 
+    margin-top: 15%;
+    padding-left: 20px;
+    padding-right: 32px;
+    word-wrap: break-word;
+    text-align: justify; */
+
+    width: 60%;
+    height: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 15%;
+}
+.sublogin-box-green{
+    float: left; 
+    width: 50%; 
+    height: 100%; 
+    background-color: rgb(76, 165, 123);
+}
+.sublogin-box-green-container{
+    width: 60%;
+    height: 100%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 15%;
+}
+
+input[type=checkbox]{
+    width: 18px;
+    font-size: 12px;
+}
+
+.input-text{
+    margin: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    background-color: transparent;
+    width: 80%;
+    border: none;
+    border-bottom: whitesmoke 1px solid;
+    transition: width 0.5s;
+}
+.input-text::placeholder{
+    color: whitesmoke;
+}
+.input-text:focus{
+    outline: none;
+    width: 100%;
+}
+
+.sublogin-box-green-container a{
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.sublogin-box-green-container h2{
+    color: whitesmoke;
+}
+
+.margin-top-{
+    margin-top: 50px;
+}
+
+.green-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(76, 165, 123);
+    color: whitesmoke;
+    border-radius: 1px;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 14px;
+    transition: all 0.2s;
+}
+
+.green-btn:hover{
+    background-color: rgba(76, 161, 121, 0.808);
+}
+
+.forget-pass{
+    width: fit-content;
+}
+
+.underline{
+    width: 0;
+    border: whitesmoke solid 0.5px;
+    transition: all 0.2s;
+}
+
+.forget-pass:hover .underline{ 
+    width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 2px 3px black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 33,3%;
+    transition: all 0.2s;
+}
+
+.grid-item img{
+    filter: grayscale(100%);
+    width: 100%;
+    transition: all 0.4s;
+}
+.grid-item:hover{
+    box-shadow: 5px 12px 10px black;
+    background-color: rgb(240,240,240);
+    cursor: pointer;
+}
+.grid-item:hover img{
+    filter: none;
+}
+
+.profile-picture{
+    margin-top: 20px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 230px;
+    border-radius: 50%;
+}
+.profile-name{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.profile-bio{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+
+
+.fol-table{
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.fol-table th, .fol-table td{
+    padding: 7px 25px;
+}
+
+.profile-title{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.profile-title span{
+    font-family: "Lobster";
+}
+
+.contact-table{
+    margin-top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    color: whitesmoke;
+}
+
+.text-left{
+    text-align: left;
+    padding: 20px;
+}
+
+.text-right{
+    text-align: right;
+    padding: 20px;
+}
+/* 
+.transform-center{
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+} */
